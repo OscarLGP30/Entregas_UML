@@ -1,0 +1,36 @@
+@startuml
+
+Kate *-- Guillermo : Esta casado con
+
+Guillermo *-- Diana : Es hijo de
+
+Diana *-- Carlos : Esta casado con
+
+Carlos *-- Guillermo : Es hijo de
+
+Class Kate{
+Nombre = “Kate”
+Apellido = “Windsor”
+Apellido Nacimiento = “Middleton”
+Sexo = “Mujer”
+}
+
+Class Guillermo{
+Nombre = “Guillermo”
+Apellido = “Windsor”
+Sexo = “Hombre”
+}
+
+Class Diana{
+Nombre = “Diana”
+Apellido = “Windsor”
+Apellido Nacimiento = “Spencer”
+Sexo = “Mujer”
+}
+
+Class Carlos{
+Nombre = “Carlos”
+Apellido = “Windsor”
+Sexo = “Hombre”
+}
+@enduml
