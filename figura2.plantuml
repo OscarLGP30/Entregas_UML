@@ -1,0 +1,7 @@
+@startuml
+Class r1:Rectangulo{
+Color = 'Naranja'
+Anchura = 1
+Longitud = 3
+}
+@enduml
