@@ -1,0 +1,21 @@
+@startuml
+
+Class Proyecto{
+Nombre: 1 Texto
+Fecha de inicio: 1 Tiempo
+Fecha de fin: 0..1 Tiempo
+}
+
+Class MiembroDelEquipo{
+Nombre: 1 Texto
+Apellidos: 1 Texto
+Rol: 0..* Texto
+}
+
+Class LugarDeActuacion{
+Nombre: 0..* Texto
+Coordenada X: 1 Número
+Coordenada Y: 1 Número
+}
+
+@enduml
