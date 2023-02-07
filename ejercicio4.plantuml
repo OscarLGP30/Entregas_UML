@@ -9,25 +9,25 @@ Ec2 *-- CatedralDeSantiago : Se Construyó Durante:
 Class CatedralDeSantiago{
 Nombre = “Catedral de Santiago de Compostela”
 Culto = Católico
-Fecha primera co nsa gración = 1128
+Fecha primera consagración = 1128
 Fecha seg unda consagración = 3 de abril de 121 1
 Fecha declaración BIC = 1896
-Material = Gran ito
-Esti lo = Román ico, Gótico, Bar roco, Platere sco, Neoclásico
+Material = Granito
+Esti lo = Románico, Gótico, Barroco, Plateresco, Neoclásico
 }
 
 Class Ec1{
-Fecha inicio = 1 075
+Fecha inicio = 1075
 Fecha fin = 1122
 }
 Class Ec2{
-Fecha inicio = 1 168
+Fecha inicio = 1168
 Fecha fin = nulo
 }
 
 Class I1_Lugar{
-Ciudad = “San tiag o de Compostela”
-Comunida d = “Gal icia”
+Ciudad = “Santiago de Compostela”
+Comunidad = “Galicia”
 País = “España”
 }
 @enduml
