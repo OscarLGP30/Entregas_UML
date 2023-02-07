@@ -1,0 +1,40 @@
+@startuml
+
+I1 *-- Gioconda : Se Locacliza en:
+
+Réplica -- Gioconda : Es Réplica de:
+
+I2 *-- Réplica : Se Localiza en:
+
+Class Gioconda{
+Título = l1: Lugar “La Gioconda”
+AC = “1503 - 1516”
+Técnica = Óleo
+Sub-técnica = Sfumato
+Soporte = Madera de álamo
+Autor = “Leonardo da Vinci”
+Estado de conservación = Regular
+}
+
+Class Réplica{
+Título = l2: Lugar “Gioconda de El Prado”
+AC = “1503 - 1516”
+Técnica = Óleo
+Sub-técnica = Pincelada simple
+Soporte = Madera de nogal
+Autor = desconocido
+Estado de conservación = Bueno
+}
+
+Class I1{
+Institución = “Museo del Louvre”
+Ciudad = “París”
+País = “Francia”
+}
+
+Class I2{
+nstitución = “Museo de El Prado”
+Ciudad = “Madrid”
+País = “España”
+}
+@enduml
